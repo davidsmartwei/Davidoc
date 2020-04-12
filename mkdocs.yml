@@ -1,9 +1,23 @@
-site_name: My Docs
+site_name: David&Doc
 
 theme:
   name: material
   language: zh
 
+  features:
+    - tabs
+
   palette:
     primary: teal
     accent: indigo
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.tilde
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: date
+  - awesome-pages
