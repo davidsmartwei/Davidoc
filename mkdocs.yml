@@ -7,3 +7,6 @@ theme:
   palette:
     primary: teal
     accent: indigo
+
+  favicon: images/good.png
+  
