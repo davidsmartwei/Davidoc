@@ -1,23 +1,45 @@
-site_name: David&Doc
+site_name: David&Blog
 
 theme:
   name: material
   language: zh
 
   features:
-    - tabs
+    - tabs    # 添加横向标题栏
 
   palette:
-    primary: teal
-    accent: indigo
+    primary: teal     # 页首背景颜色：蓝绿色
+    accent: indigo    # 目录选择时展示的颜色：靛青
 
 markdown_extensions:
-  - admonition
-  - codehilite
-  - pymdownx.tilde
+  - admonition        # 添加提示信息
+  - codehilite        # 代码语法高亮
+  - pymdownx.tilde    # 在需要删除的文字中间划线
 
 plugins:
   - search
-  - git-revision-date-localized:
+  - git-revision-date-localized:        # 在页面尾部添加最后编辑的时间
       type: date
-  - awesome-pages
+  - minify:                             # 压缩html文件
+      minify_html: true
+
+# 导航栏，左侧目录，用于控制目录的显示，会直接进入docs文件夹
+nav:
+  - 首页: index.md
+  - 纵观古今: 
+    - 计算机启动原理: 纵观古今/boot-计算机.md
+    - 初始化进程: 纵观古今/初始化进程.md
+    - docker与虚拟机对比: 纵观古今/docker-vs-虚拟机.md
+    - test:
+      - 测试: 纵观古今/test/test.md
+
+  - 横看当前:
+    - 电影下载: 
+      - 百度下载: 横看当前/电影下载/百度云满宽带下载.md
+    - Docker入门: 横看当前/Docker入门.md
+
+  - 为我所用: 
+    - test: 为我所用/hello-world.md
+
+
+    
