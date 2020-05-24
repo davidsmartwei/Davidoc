@@ -27,8 +27,8 @@ plugins:
 nav:
   - 首页: index.md
   - 纵观古今: 
-    - test.md
+    - 测试1: 纵观古今/test.md
   - 横看当前:
-    - test.md
+    - 测试2: 横看当前/test.md
   - 为我所用: 
-    - test.md
+    - 测试3: 为我所用/test.md
