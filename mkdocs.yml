@@ -27,16 +27,8 @@ plugins:
 nav:
   - 首页: index.md
   - 纵观古今: 
-    - 计算机启动原理: 纵观古今/boot-计算机.md
-    - 初始化进程: 纵观古今/初始化进程.md
-    - docker与虚拟机对比: 纵观古今/docker-vs-虚拟机.md
-    - test:
-      - 测试: 纵观古今/test/test.md
-
+    - test.md
   - 横看当前:
-    - 电影下载: 
-      - 百度下载: 横看当前/电影下载/百度云满宽带下载.md
-    - Docker入门: 横看当前/Docker入门.md
-
+    - test.md
   - 为我所用: 
-    - test: 为我所用/hello-world.md
+    - test.md
