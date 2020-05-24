@@ -27,7 +27,7 @@ plugins:
 nav:
   - 首页: index.md
   - 纵观古今: 
-    - 测试1: 纵观古今/test.md
+    - 人的需求: 纵观古今/test.md
   - 横看当前:
     - 测试2: 横看当前/test.md
   - 为我所用: 
